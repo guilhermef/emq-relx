@@ -8,7 +8,7 @@ dep_goldrush = git https://github.com/basho/goldrush 0.1.9
 
 DEPS += emqttd emq_modules emq_dashboard emq_retainer emq_recon emq_reloader \
         emq_auth_username \
-        emq_auth_mongo \
+        emq_auth_mongo emq_auth_jwt \
         emq_plugin_template emq_web_hook \
         emq_vendor_interface_plugin emq_throttle_plugin \
 
@@ -29,7 +29,7 @@ dep_emq_auth_username = git https://github.com/emqtt/emq-auth-username v2.3.1
 #dep_emq_auth_pgsql    = git https://github.com/emqtt/emq-auth-pgsql v2.3.1
 #dep_emq_auth_redis    = git https://github.com/emqtt/emq-auth-redis v2.3.1
 dep_emq_auth_mongo    = git https://github.com/TIotti/emq-auth-mongo master
-#dep_emq_auth_jwt      = git https://github.com/emqtt/emq-auth-jwt v2.3.1
+dep_emq_auth_jwt      = git https://github.com/emqtt/emq-auth-jwt v2.3.1
 
 # mqtt-sn, coap and stomp
 #dep_emq_sn    = git https://github.com/emqtt/emq-sn v2.3.1
